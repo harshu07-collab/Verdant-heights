@@ -377,7 +377,7 @@
     .form-success .success-icon svg{width:30px;height:30px}
 
     /* CTA */
-    .cta{text-align:center;padding:150px 56px;position:relative;overflow:hidden;background:linear-gradient(160deg,var(--secondary),#0f0f24,#141428)}
+    .cta{text-align:center;padding:140px 56px;position:relative;overflow:hidden;background:linear-gradient(160deg,var(--secondary),#0f0f24,#141428)}
     .cta-glow1{position:absolute;width:700px;height:700px;border-radius:50%;background:radial-gradient(circle,rgba(201,168,76,0.05) 0%,transparent 70%);top:-300px;right:-150px;animation:glowFloat 7s ease-in-out infinite alternate}
     .cta-glow2{position:absolute;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(201,168,76,0.03) 0%,transparent 70%);bottom:-200px;left:-100px;animation:glowFloat 9s ease-in-out infinite alternate-reverse}
     .cta .container{position:relative;z-index:1}
@@ -386,7 +386,7 @@
     .cta-actions{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
 
     /* SECTION DIVIDER */
-    .section-divider-ornament{display:flex;align-items:center;justify-content:center;gap:16px;padding:0 56px}
+    .section-divider-ornament{display:flex;align-items:center;justify-content:center;gap:16px;padding:32px 56px}
     .section-divider-ornament .div-line{flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(201,168,76,0.15),transparent)}
     .section-divider-ornament .div-diamond{width:8px;height:8px;border:1px solid rgba(201,168,76,0.25);transform:rotate(45deg);flex-shrink:0}
     .section-divider-ornament .div-dot{width:4px;height:4px;background:rgba(201,168,76,0.3);border-radius:50%;flex-shrink:0}
@@ -530,7 +530,7 @@
     .hero-scroll.hidden{opacity:0!important;transform:translateX(-50%) translateY(20px)!important;pointer-events:none}
 
     /* 3D VIEWER */
-    .viewer-3d{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:80px 56px;background:linear-gradient(180deg,var(--secondary),#0a0a16 40%,#0c0c18 60%,var(--primary));overflow:hidden}
+    .viewer-3d{position:relative;display:flex;align-items:center;justify-content:center;padding:140px 56px;background:linear-gradient(180deg,var(--secondary),#0a0a16 40%,#0c0c18 60%,var(--primary));overflow:hidden}
     .viewer-3d-bg{position:absolute;inset:0;pointer-events:none;overflow:hidden}
     .viewer-3d-bg::before{content:'';position:absolute;width:700px;height:700px;border-radius:50%;background:radial-gradient(circle,rgba(201,168,76,0.035) 0%,transparent 65%);top:50%;left:50%;transform:translate(-50%,-50%);animation:glowFloat 12s ease-in-out infinite alternate}
     .viewer-3d-canvas-wrap{position:relative;width:100%;max-width:960px;height:75vh;min-height:520px;max-height:780px;border-radius:var(--radius-lg);overflow:hidden;border:1px solid rgba(255,255,255,0.05);background:rgba(6,6,14,0.95);box-shadow:0 50px 120px rgba(0,0,0,0.5),0 0 0 1px rgba(255,255,255,0.02) inset,0 0 80px rgba(201,168,76,0.04);cursor:grab}
@@ -592,6 +592,8 @@
       .gallery-item:nth-child(5){grid-column:auto;aspect-ratio:4/3}
       .features-grid{grid-template-columns:repeat(2,1fr)}
       .testimonials-grid{grid-template-columns:1fr 1fr}
+      .section-divider-ornament{padding:28px 32px}
+      .cta{padding:120px 32px}
       .hero{padding:0 32px}
     }
     @media(max-width:768px){
@@ -613,7 +615,8 @@
       .footer{flex-direction:column;text-align:center;padding:32px 24px}
       .nav-cta{display:none}.nav-links.open .nav-cta{display:flex}
       .cursor-dot,.cursor-ring,.cursor-glow{display:none}
-      .viewer-3d{padding:60px 20px;min-height:auto}
+      .section-divider-ornament{padding:24px 24px}
+      .viewer-3d{padding:60px 20px}
       .viewer-3d-canvas-wrap{height:55vh;min-height:380px}
       .viewer-3d-controls{font-size:9px;gap:14px}
       .nav-links{position:fixed;top:0;right:-100%;width:75%;height:100vh;background:rgba(13,13,26,0.98);backdrop-filter:blur(24px);flex-direction:column;padding:100px 36px 40px;gap:28px;transition:right 0.6s var(--ease-out);align-items:flex-start}
@@ -624,6 +627,8 @@
       .highlights-grid{grid-template-columns:1fr}
       .gallery-filter button{font-size:10px;padding:8px 16px}
       .hero h1{font-size:30px}.section-title{font-size:26px}
+      .section-divider-ornament{padding:20px 20px}
+      .cta{padding:80px 20px}
       .hero{padding:0 20px}.section-padding{padding:50px 20px}
       .nav-links{width:85%;padding:90px 24px 40px}
       .lightbox-close{top:16px;right:16px;width:40px;height:40px;font-size:16px}
