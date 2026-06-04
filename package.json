@@ -1,0 +1,13 @@
+{
+  "name": "verdant-heights",
+  "version": "1.0.0",
+  "description": "VERDANT HEIGHTS — Ultra-Luxury 42-Story Residences",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["luxury", "real-estate", "residences"],
+  "author": "Verdant Heights",
+  "license": "ISC"
+}

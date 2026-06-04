@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://verdant-heights.vercel.app/sitemap.xml
+
+# Disallow admin/private areas
+Disallow: /server.js
